@@ -295,31 +295,52 @@
         }
         
         /* Responsive Design */
+        /* Mobile & Tablet Styles */
         @media (max-width: 768px) {
             .hero {
-                min-height: 400px;
+                min-height: 500px;
             }
             
             .hero h1 {
-                font-size: 32px;
+                font-size: 28px;
+                margin-bottom: 15px;
             }
             
             .hero-subtitle {
-                font-size: 16px;
+                font-size: 14px;
+                margin: 8px 0;
             }
             
             .hero-button {
-                padding: 12px 30px;
-                font-size: 16px;
+                padding: 12px 40px;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+            
+            .hero-content {
+                padding: 20px;
+                margin-top: -40px;
+            }
+            
+            /* Contact form mobile fixes */
+            .contact-section {
+                padding: 40px 0;
             }
             
             .section-heading {
                 font-size: 28px;
             }
             
+            .form-input,
+            .form-textarea {
+                font-size: 16px; /* Prevents zoom on iPhone */
+            }
+            
+            /* Footer mobile */
             .footer-content {
                 flex-direction: column;
                 text-align: center;
+                gap: 10px;
             }
         }
     </style>
